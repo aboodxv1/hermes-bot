@@ -1,0 +1,34 @@
+# Secrets — NEVER commit
+.env
+*.env
+hermes-data/
+gws-data/
+gcloud-data/
+credentials.json
+*credentials*.json
+
+# Hermes runtime data
+*.db
+*.db-shm
+*.db-wal
+sessions/
+cache/
+logs/
+memories/
+sandboxes/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp

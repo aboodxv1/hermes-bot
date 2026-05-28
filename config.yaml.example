@@ -1,0 +1,12 @@
+# ─────────────────────────────────────────────────────────
+# Hermes Configuration Template
+# Copy this file to hermes-data/config.yaml
+# ─────────────────────────────────────────────────────────
+
+# Primary language model — see https://openrouter.ai/models for options
+model: openai/gpt-oss-120b:free
+
+# Telegram platform settings
+telegram:
+  reactions: true       # add emoji reactions to user messages
+  require_mention: false # respond to all messages, not just @mentions
